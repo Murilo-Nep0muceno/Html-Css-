@@ -1,0 +1,101 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(157, 255, 157);
+    flex-wrap: wrap;
+    padding: 2.3rem;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a {
+    font-size: 2rem;
+    color: rgb(212, 65, 65);
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0px 2px 1px black;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    width: 250px;
+    margin: auto;
+} 
+
+.div{
+    text-align: center;
+    padding: 30px;
+    border: 3px solid black;
+    width: 60% ;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 60px;
+}
+.ul li{
+    width: 30px;
+    margin: auto;    
+}
+
+.ul a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: .5rem;
+    width: 20px;
+}
+
+.ul a:hover{
+    color: red;
+}
+
+.ul img{
+    padding-right: 5px;
+}
+
+#i{
+    height: 4rem;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.ti{
+    text-align: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.ti  a:hover{
+    color: red;
+} 
